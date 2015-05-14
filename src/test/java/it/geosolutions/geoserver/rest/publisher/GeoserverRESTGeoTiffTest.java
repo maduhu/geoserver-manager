@@ -92,7 +92,7 @@ public class GeoserverRESTGeoTiffTest extends GeoserverRESTTest {
         assertFalse("Bad unpublish()",   publisher.unpublishCoverage(DEFAULT_WS, storeName, layerName));
         assertFalse(existsLayer(layerName));
     }
-   
+    
     @Test
     public void testGeotiff() throws FileNotFoundException, IOException {
         if (!enabled()) return;
