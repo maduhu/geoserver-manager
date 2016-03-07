@@ -114,6 +114,17 @@
 		</site>
 	</distributionManagement>
 
+	<repositories>
+		<repository>
+			<id>BoundlesGeo</id>
+			<url>https://repo.boundlessgeo.com/release</url>
+		</repository>
+		<repository>
+			<id>maven-restlet</id>
+			<name>Public online Restlet repository</name>
+			<url>http://maven.restlet.org</url>
+		</repository>
+	</repositories>
 
 	<build>
 		<plugins>
@@ -204,7 +215,7 @@
 
 	<properties>
 		<slf4j.version>1.5.11</slf4j.version>
-		<gs.version>2.8-SNAPSHOT</gs.version>
+		<gs.version>2.8.2</gs.version>
 	</properties>
 
 	<dependencies>
